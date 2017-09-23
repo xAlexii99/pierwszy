@@ -30,7 +30,7 @@
             android:inputType="text"
             android:layout_marginLeft="4dp"
             android:layout_toRightOf="@+id/a" />
-
+<!-- Baseline trzyma sie lini dolnej-->
         <TextView
             android:id="@+id/b"
             android:layout_width="wrap_content"
