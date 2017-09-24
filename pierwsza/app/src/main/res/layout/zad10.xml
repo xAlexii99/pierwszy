@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/downa"
@@ -22,7 +21,7 @@
         android:text="2" />
 
     <Button
-
+        android:id="@+id/downc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -31,7 +30,7 @@
         android:text="4" />
 
     <Button
-
+        android:id="@+id/downe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -47,7 +46,7 @@
         android:text="5" />
 
     <Button
-
+        android:id="@+id/downg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/a"
@@ -57,7 +56,7 @@
         android:text="6" />
 
     <Button
-
+        android:id="@+id/downf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/a"
@@ -65,5 +64,4 @@
         android:layout_toRightOf="@id/a"
         android:gravity="center"
         android:text="7" />
-
 </RelativeLayout>
