@@ -16,6 +16,9 @@
 
         </activity>
         <activity android:name=".zad10">
+
+        </activity>
+        <activity android:name=".zad11">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
