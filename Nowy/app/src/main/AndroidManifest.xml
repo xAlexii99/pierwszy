@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pl.aleksander.pierwsza" >
+    package="com.example.uczen.nowy">
 
     <application
         android:allowBackup="true"
@@ -8,20 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
-
-        </activity>
-        <activity android:name=".zad9Activity">
-
-        </activity>
-        <activity android:name=".zad10">
-
-        </activity>
-        <activity android:name=".zad11">
-
-        </activity>
-        <activity android:name=".zad12">
+        android:theme="@style/AppTheme">
+        <activity android:name=".przypomnienie">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
