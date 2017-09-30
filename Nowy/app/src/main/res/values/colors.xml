@@ -6,5 +6,7 @@
     <color name="czerwony">#dd392a</color>
     <color name="niebieski">#2834e0</color>
     <color name="zielony">#37e028</color>
+    <color name="czarny">#000000</color>
+    <color name="bialy">#ffffff</color>
 
 </resources>
